@@ -18,7 +18,7 @@ module.exports = {
 
   // social usernames (optional)
   twitter: null,
-  github: null,
+  github: 'pzjzeason',
   linkedin: null,
 
   // default notion icon and cover images for site-wide consistency (optional)
