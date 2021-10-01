@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: "Zeason's Online Home",
-  domain: '',
+  domain: 'zeason.vercel.app',
   author: 'pengzijian',
 
   // open graph metadata (optional)
