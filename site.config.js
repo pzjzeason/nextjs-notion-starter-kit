@@ -8,12 +8,12 @@ module.exports = {
 
   // basic site info (required)
   name: "Zeason's Online Home",
-  domain: 'transitivebullsh.it',
+  domain: '',
   author: 'pengzijian',
 
   // open graph metadata (optional)
   description: '',
-  socialImageTitle: 'Transitive Bullshit',
+  socialImageTitle: '',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
