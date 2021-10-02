@@ -51,12 +51,12 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .copyright {
-  font-size: 80%;
+  font-size: 90%;
   padding: 0.5em;
 }
 
@@ -68,7 +68,7 @@
 .settings a,
 .social a {
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1em;
   display: inline-flex;
   padding: 0.25em;
   margin-right: 1vw;
@@ -85,6 +85,9 @@
   transition: color 50ms ease-out;
 }
 
+.toggleDarkMode a {
+  font-size: 20px;
+}
 .toggleDarkMode:hover {
   color: #2795e9;
 }
@@ -120,7 +123,7 @@
   }
 }
 
-@media only screen and (max-width: 566px) {
+/* @media only screen and (max-width: 566px) {
   .footer {
     flex-direction: column;
   }
@@ -138,7 +141,7 @@
   .footer .copyright {
     order: 3;
   }
-}
+} */
 
 .pageActions {
   display: flex;
