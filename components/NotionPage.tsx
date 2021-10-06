@@ -175,12 +175,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         <meta property='og:title' content={title} />
         <meta property='og:site_name' content={site.name} />
 
-        <meta name='twitter:title' content={title} />
-        <meta property='twitter:domain' content={site.domain} />
-
-        {config.twitter && (
-          <meta name='twitter:creator' content={`@${config.twitter}`} />
-        )}
+        <script async src="https://ackee-wine.vercel.app/tracker.js" data-ackee-server="https://ackee-wine.vercel.app" data-ackee-domain-id="e0c5c986-56d0-481d-99d7-a3446fd9c1c8"></script>
 
         {socialDescription && (
           <>
