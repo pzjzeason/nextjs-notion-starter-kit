@@ -45,9 +45,9 @@ export async function getPage(pageId: string): Promise<ExtendedRecordMap> {
     .map(({ block, url }) => mapNotionImageUrl(url, block))
     .filter(Boolean)
 
-  // const urls = Array.from(new Set(imageUrls))
-  // const previewImageMap = await getPreviewImages(urls)
-  // ;(recordMap as any).preview_images = previewImageMap
+  const urls = Array.from(new Set(imageUrls))
+  const previewImageMap = await getPreviewImages(urls)
+  ;(recordMap as any).preview_images = previewImageMap
 
   const tweetIds: string[] = blockIds
     .map((blockId) => {
